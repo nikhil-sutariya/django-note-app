@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font: 15px Montserrat, sans-serif !important;
+    background-color: #f1eef7 !important;
+}
+
+.container-fluid{
+    padding: 0 !important;
+}
+
+.navbar{
+    background-color: #563d7c;
+    
+}
+
+.navbar .navbar-brand{
+    color: #e8cd83;
+}
+
+.navbar a{
+    color: #9380b1;
+}
+
+.navbar a:hover{
+    color: #f7f6f9;
+}
+
+.navbar a.active{
+    color: #f7f6f9;
+}
+
+.navbar .navbar-toggler{
+    border: 1px solid #9380b1;
+}
+
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar .icon{
+    background-color: #9380b1;
+    width: 25px;
+    height: 2px;
+    margin: 6px 0;
+}
+
+.header h3{
+    color: #302244;
+}
+
+.header .card .btn-primary, .header .card .btn-danger{
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.header .form-1 input[type="text"], input[type="email"], input[type="password"], textarea{
+    background-color: transparent !important;
+    border: 1px solid #9380b1 !important;
+    color: #302244 !important;
+}
